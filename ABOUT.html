@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arellano University</title>
+    <link rel="stylesheet" href="ABOUT.css"/>
+    <link
+      rel="stylesheet"
+      href="logo.png" 
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="Arellano_University_logo.png" width="100" height="100">
+        </a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" id="closeBtn" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="ABOUT.html">ABOUT</a></li>
+            <li><a href="COURSE.html">COURSE</a></li>
+            <li><a href="OBJECTIVES.html">OBJECTIVES</a></li>
+            <li><a href="CONTACT.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" id="menuBtn" onclick="showMenu()"></i>
+      </nav>
+
+      <section class="headerDescWrapper">
+        <section class="headerDesc">
+          <h1>About Us</h1>
+        </section>
+      </section>
+    </header>
+
+    <!-- About us -->
+    <section class="about-us">
+      <div class="description">
+        <h1>Arellano University</h1>
+        <p>
+            The Arellano University seal was inspired by the heroic photograph of American
+            marines raising the Stars and Stripes on the summit of mount Surabachi.
+            The seal was prepared by the great artist, Vicente Manansala. The whole design
+            is expressive of the faith of the Arellano University in the youth of the land
+            as builders of the Filipino nation.<br>
+
+            <br>Arellano University prides itself as an institution dedicated to addressing the
+            needs of the global market. Beyond marrying the skills needed in today’s competitive
+            market to academic excellence, the university also prioritizes industry needs, experience,
+            and growth for its students.<br>
+            
+            <br>With this as its mission, Arellano University has linked itself with local industry giants
+            through various partnerships over the years. Across all disciplines, the university maintains
+            its mission in connecting students with the relevant opportunities in their specific fields.<br>
+
+            <br>It doesn’t stop there.<br>
+
+            <br>Under Arellano University’s International Programs, the university is a partner to several other
+            foreign universities in places such as the United States, Australia, Japan, and Thailand. As the
+            university believes in providing equitable access to education that is globally competitive, Arellano University
+            consistently updates their offerings based on the needs of their students and the job market.
+
+
+        </p>
+        <a href="#" class="red-btn">EXPLORE NOW</a>
+      </div>
+
+      <div class="imgWrapper">
+        <img
+          src="https://university.sunway.edu.my/sites/default/files/webuni/SUB_0022.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerWrapper">
+        <h4>About Us</h4>
+        <p>
+          3058 Taft Avenue, Pasay City
+          Philippines
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <h5>Made By &copy; De Villa & Odi</h5>
+      </div>
+    </footer>
+
+    <script>
+      var closeBtn = document.getElementById("closeBtn");
+      var menuBtn = document.getElementById("menuBtn");
+      var navLinks = document.getElementById("nav-links");
+
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

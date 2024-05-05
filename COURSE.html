@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arellano University</title>
+    <link rel="stylesheet" href="COURSE.css" />
+    <link
+      rel="stylesheet"
+      href="COURSE.css"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img
+            src="Arellano_University_logo.png" width="100" height="100">
+            
+        
+        </a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa fa-times" id="closeBtn" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="ABOUT.html">ABOUT</a></li>
+            <li><a href="COURSE.html">COURSE</a></li>
+            <li><a href="OBJECTIVES.html">OBJECTIVES</a></li>
+            <li><a href="CONTACT.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" id="menuBtn" onclick="showMenu()"></i>
+      </nav>
+
+      <section class="headerDescWrapper">
+        <section class="headerDesc">
+          <h1>Our Courses</h1>
+        </section>
+      </section>
+    </header>
+
+    <!-- courses -->
+    <section class="courses">
+      <h1>Courses and Programs We Offer</h1>
+      
+      <div class="boxContainer">
+        <div class="course-col">
+          <h2>Basic Education</h2>
+          <p>
+            The Arellano University offers Pre-Kindergarten, Kindergarten, levels Grades 1 to 6 and High School.
+            It provides quality education by ensuring functional basic competencies among learners to serve as
+            their weapons as they traverse the world of knowledge acquisition. In today’s new normal of education,
+            we now offer flexible teaching and learning processes through online and modular learning modalities
+            to provide the holistic development of the learners and be well equipped with capabilities and skills
+            to cater to their needs to be globally competitive individuals.
+          </p>
+        </div>
+        <div class="course-col">
+          <h2>Undergraduate Program</h2>
+          <p>
+            Equitable access to learning through relevant, innovative, industry-sensitive and environment-conscious
+            academic programs and services. Arellano University offers different courses like College of Arts and Sciences,
+            College of Criminal Justice Education, College of Medical Laboratory Science, College of Nursing, College of Pharmacy,
+            College of Physical Therapy, College of Radiologic Technology, Information Technology Education (ITE) Cluster,
+            Institute of Accountancy, School of Business Administration, School of Business and Commerce, School of Business Technology,
+            School of Computer Studies, School of Education, School of Hospitality and Tourism Management, School of Midwifery,
+            School of Psychology.
+          </p>
+        </div>
+        <div class="course-col">
+          <h2>ETEEAP</h2>
+          <p>
+            The Expanded Tertiary Education Equivalency and Accreditation Program (ETEEAP) of the Commission on Higher Education (CHED)
+            as a comprehensive educational assessment scheme recognizes knowledge and prior learning obtained from non-formal and informal 
+            experiences.
+            
+            Through this program, a college diploma is granted as a degree based on competency evaluation and a comprehensive assessment system
+            which utilizes written tests, interviews, skills demonstrations, portfolio and other creative and appropriate assessment methodologies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="footerWrapper">
+        <h4>About Us</h4>
+        <p>
+          3058 Taft Avenue, Pasay City
+          Philippines
+        </p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+        <h5>Made By &copy; De Villa & Odi</h5>
+      </div>
+    </footer>
+
+    <script>
+      var closeBtn = document.getElementById("closeBtn");
+      var menuBtn = document.getElementById("menuBtn");
+      var navLinks = document.getElementById("nav-links");
+
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
